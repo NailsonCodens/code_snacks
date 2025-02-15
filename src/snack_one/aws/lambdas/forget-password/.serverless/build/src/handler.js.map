@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/handler.ts"],
+  "sourcesContent": ["import { APIGatewayProxyEvent, APIGatewayProxyResult } from \"aws-lambda\";\n\nexport const main = async (\n  event: APIGatewayProxyEvent\n): Promise<APIGatewayProxyResult> => {\n  return {\n    statusCode: 200,\n    body: JSON.stringify({ message: \"Microservi\u00E7o rodando na AWS Lambda!\" }),\n  };\n};\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAEO,IAAM,OAAO,OAClB,UACmC;AACnC,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU,EAAE,SAAS,yCAAsC,CAAC;AAAA,EACzE;AACF;",
+  "names": []
+}
