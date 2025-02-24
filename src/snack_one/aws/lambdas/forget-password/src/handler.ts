@@ -5,6 +5,6 @@ export const main = async (
 ): Promise<APIGatewayProxyResult> => {
   return {
     statusCode: 200,
-    body: JSON.stringify({ message: "Microserviço rodando na AWS Lambda!" }),
+    body: JSON.stringify({ message: "Starting to working with AWS Lambda Functions" }),
   };
 };
